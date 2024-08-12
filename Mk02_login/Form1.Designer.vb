@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         txtFirst = New TextBox()
         txtSecond = New TextBox()
-        btnLogin = New Button()
+        BtnLogin = New Button()
         lblIdpengguna = New Label()
         lblLogmasuk = New Label()
         lblKatalaluan = New Label()
@@ -48,15 +48,15 @@ Partial Class Form1
         txtSecond.Size = New Size(211, 32)
         txtSecond.TabIndex = 2
         ' 
-        ' btnLogin
+        ' BtnLogin
         ' 
-        btnLogin.BackColor = SystemColors.ButtonShadow
-        btnLogin.Location = New Point(141, 180)
-        btnLogin.Name = "btnLogin"
-        btnLogin.Size = New Size(94, 29)
-        btnLogin.TabIndex = 3
-        btnLogin.Text = "LOGIN"
-        btnLogin.UseVisualStyleBackColor = False
+        BtnLogin.BackColor = SystemColors.ButtonShadow
+        BtnLogin.Location = New Point(141, 180)
+        BtnLogin.Name = "BtnLogin"
+        BtnLogin.Size = New Size(94, 29)
+        BtnLogin.TabIndex = 3
+        BtnLogin.Text = "LOGIN"
+        BtnLogin.UseVisualStyleBackColor = False
         ' 
         ' lblIdpengguna
         ' 
@@ -95,7 +95,7 @@ Partial Class Form1
         Controls.Add(lblKatalaluan)
         Controls.Add(lblLogmasuk)
         Controls.Add(lblIdpengguna)
-        Controls.Add(btnLogin)
+        Controls.Add(BtnLogin)
         Controls.Add(txtSecond)
         Controls.Add(txtFirst)
         Name = "Form1"
@@ -106,7 +106,7 @@ Partial Class Form1
     End Sub
     Friend WithEvents txtFirst As TextBox
     Friend WithEvents txtSecond As TextBox
-    Friend WithEvents btnLogin As Button
+    Friend WithEvents BtnLogin As Button
     Friend WithEvents lblIdpengguna As Label
     Friend WithEvents lblLogmasuk As Label
     Friend WithEvents lblKatalaluan As Label
